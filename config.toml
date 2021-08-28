@@ -1,0 +1,40 @@
+baseURL = "https://sds-aau.github.io/SDS-2021/"
+staticDir = 'static'
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Social Data Science 2021"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  # editURL = "https://github.com/SDS-AAU/SDS2021-test/tree/master/content"
+  description = "Social Data Science 2021"
+  author = "Roman Jurowetzki & Daniel Hain"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableLanguageSwitchingButton = true
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+#[Languages]
+#[Languages.en]
+#title = "Documentation for Hugo Learn Theme"
+#weight = 1
+#languageName = "English"
+#landingPageURL = "/en"
+#landingPageName = "<i class='fas fa-home'></i> Home"
+
+#[[Languages.en.menu.shortcuts]]
+#name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+#identifier = "ds"
+#url = "https://github.com/matcornic/hugo-theme-learn"
+#weight = 10
