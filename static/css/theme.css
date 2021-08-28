@@ -102,10 +102,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
 }
 #header-wrapper {
-    background: #998040;
+    background: #3F5992;
     color: #fff;
     text-align: center;
-    border-bottom: 4px solid #998040;
+    border-bottom: 4px solid #4967aa;
     padding: 1rem;
 }
 #header a {
@@ -121,8 +121,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 .searchbox {
     margin-top: 1rem;
     position: relative;
-    border: 1px solid #6b592d;
-    background: #998040;
+    border: 1px solid #4967aa;
+    background: #3F5992;
     border-radius: 4px;
 }
 .searchbox label {
@@ -173,7 +173,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #6b592d;
+    background-color: #3F5992;
     position: fixed;
     top: 0;
     width: 300px;
@@ -192,7 +192,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     color: rgba(204, 204, 204, 0.6);
 }
 #sidebar hr {
-    border-bottom: 1px solid #504323;
+    border-bottom: 1px solid #4967aa;
 }
 #sidebar a.padding {
     padding: 0 1rem;
@@ -217,7 +217,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     font-size: 80%;
 }
 #sidebar h5.parent a {
-    background: #504323;
+    background: #4967aa;
     color: #d9d9d9 !important;
 }
 #sidebar h5.active a {
@@ -276,7 +276,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-top: 9px;
 }
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-    background: #998040;
+    background: #4967aa;
     margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
