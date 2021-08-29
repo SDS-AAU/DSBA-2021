@@ -1,7 +1,7 @@
 ---
 title: Info, Schedule & Co
 weight: 1
-chapter: true
+chapter: false
 ---
 
 General info about the semester

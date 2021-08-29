@@ -1,5 +1,6 @@
 ---
 title: "Social Data Science 2021"
+chapter: false
 ---
 
 # Social Data Science 2021
