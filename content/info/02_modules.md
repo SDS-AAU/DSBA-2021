@@ -17,7 +17,3 @@ Focuses on analyzing a variety of unstructured data sources. Particularly, stude
 
 Introduces to the most recent developments in machine learning, which are deep learning and artificial intelligence applications. The module will provide a solid foundation for this exciting and rapidly developing field. Students will learn whether and how to apply deep learning techniques for business analytics, and acquire proficiency in new methods autonomously.
 
-## M4: Capstone Project
-
-* Submission ~8/1 2022
-* [Requirements]({{< ref "05_requirements_project.md" >}})
