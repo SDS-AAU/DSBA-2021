@@ -27,8 +27,8 @@ Click on the **to do** for the week to see what you should do to keep up with th
 
 {{%expand "Weekly to do" %}}
 - [X] **Introduction to R & Python** (Datacamp, both necessary if no prior experience)
-   * [Intro to Python](https://learn.datacamp.com/courses/intro-to-python-for-data-science) and/or [R](https://learn.datacamp.com/courses/free-introduction-to-r)
-   * [Intro to [R](https://learn.datacamp.com/courses/free-introduction-to-r)
+   * [Intro to Python](https://learn.datacamp.com/courses/intro-to-python-for-data-science) 
+   * [Intro to R](https://learn.datacamp.com/courses/free-introduction-to-r)
 - [X] **Statistics Refresher** (Datacamp, recommended if no prior statistics classes, choose either R or Python) 
    * Python
       * [Statistical Thinking 1](https://learn.datacamp.com/courses/statistical-thinking-in-python-part-1) 
