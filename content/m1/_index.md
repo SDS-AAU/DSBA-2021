@@ -36,7 +36,5 @@ Click on the **to do** for the week to see what you should do to keep up with th
    * [Data Manipulation]({{< ref "m1/02_basics/02_data_manipulation.md" >}})
 {{% /expand%}}
 
-~/OneDrive - Aalborg Universitet/01 - Teaching/ML_courses/CBS_DSBA/github/DSBA_2021/content/
-
 * W 37: Unsupervised Machine Learning (UML), Supervised Machine Learning (SML)
 * W 38: Workshop & project work 
