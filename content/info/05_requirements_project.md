@@ -1,9 +1,11 @@
 ---
-title: Semester Project Requirements
+title: Final Project Requirements
 weight: 5
 chapter: false
 ---
 
+To be updated soon
+<!---
 ## Format
 
 * Functional and self-contained notebook
@@ -32,3 +34,5 @@ chapter: false
 * Evaluation will focus on correct application and communication of DS methods
 * The level of "technicality" is as in the course with emphasis on application and intuition, not on ML engineering / mathematics
 * However, you will need to demonstrate insight into statistics on a level that is required to discuss your assignment e.g. interpret and discuss performance indicators, outline strategies for improvement e.g. under/oversampling
+
+--->

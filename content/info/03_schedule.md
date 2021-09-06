@@ -32,7 +32,6 @@ weight: 4
 
 ## Key Dates
 
-
 * In-person workshops on CBS campus (always Thursday + Friday)
    * 1: W38: Machine learning case studies
    * 2: W41: Advanced applications in Network and Text Analysis
