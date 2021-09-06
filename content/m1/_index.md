@@ -12,7 +12,7 @@ This module provides a condensed introduction to the “Data Science Pipeline”
 ## Content by week for this module
 
 {{% notice note %}}
-Click on the **to do** for the week to see what you should do to keep up with the module
+Click on the **to do** for the week to see what you should do to keep up with the module.
 {{% /notice %}}
 
 * W 36: Data Manipulation, Exploratory Data Analysis (EDA), Data Visualization
