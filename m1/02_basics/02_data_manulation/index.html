@@ -6,7 +6,7 @@
 <meta name=description content="CBS Data Science for Business Applications 2021">
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/DSBA-2021/images/favicon.png type=image/png>
-<title>Applied Data Science and Machine Learning :: Social Data Science 2021</title>
+<title>Basics Data Manipulation :: Social Data Science 2021</title>
 <link href=/DSBA-2021/css/nucleus.css?1630938436 rel=stylesheet>
 <link href=/DSBA-2021/css/fontawesome-all.min.css?1630938436 rel=stylesheet>
 <link href=/DSBA-2021/css/hybrid.css?1630938436 rel=stylesheet>
@@ -20,7 +20,7 @@
 <script src=/DSBA-2021/js/jquery-3.3.1.min.js?1630938436></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/DSBA-2021/m1/>
+<body data-url=/DSBA-2021/m1/02_basics/02_data_manulation/>
 <nav id=sidebar class=showVisitedLinks>
 <div id=header-wrapper>
 <div id=header>
@@ -80,8 +80,7 @@ Final Project Requirements
 </ul>
 </li>
 <li data-nav-id=/DSBA-2021/m1/ title="Applied Data Science and Machine Learning" class="dd-item
-parent
-active">
+parent">
 <a href=/DSBA-2021/m1/>
 <b>1. </b>Applied Data Science and Machine Learning
 <i class="fas fa-check read-icon"></i>
@@ -107,7 +106,8 @@ The Data Science Ecosystem
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m1/02_basics/ title="Basics of Statistical Programming and Data Manipulation (W35-36)" class=dd-item>
+<li data-nav-id=/DSBA-2021/m1/02_basics/ title="Basics of Statistical Programming and Data Manipulation (W35-36)" class="dd-item
+parent">
 <a href=/DSBA-2021/m1/02_basics/>
 Basics of Statistical Programming and Data Manipulation (W35-36)
 <i class="fas fa-check read-icon"></i>
@@ -119,7 +119,7 @@ Basics Statistical Programming
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/DSBA-2021/m1/02_basics/02_data_manulation/ title="Basics Data Manipulation" class=dd-item>
+<li data-nav-id=/DSBA-2021/m1/02_basics/02_data_manulation/ title="Basics Data Manipulation" class="dd-item active">
 <a href=/DSBA-2021/m1/02_basics/02_data_manulation/>
 Basics Data Manipulation
 <i class="fas fa-check read-icon"></i>
@@ -155,19 +155,9 @@ Basics Data Manipulation
 <i class="fas fa-bars"></i>
 </a>
 </span>
-<span id=toc-menu><i class="fas fa-list-alt"></i></span>
 <span class=links>
-<a href=/DSBA-2021/>Data Science for Business Applications 2021</a> > Applied Data Science and Machine Learning
+<a href=/DSBA-2021/>Data Science for Business Applications 2021</a> > <a href=/DSBA-2021/m1/>Applied Data Science and Machine Learning</a> > <a href=/DSBA-2021/m1/02_basics/>Basics of Statistical Programming and Data Manipulation (W35-36)</a> > Basics Data Manipulation
 </span>
-</div>
-<div class=progress>
-<div class=wrapper>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#m1---applied-data-science-and-machine-learning>M1 - Applied Data Science and Machine Learning</a></li>
-</ul>
-</nav>
-</div>
 </div>
 </div>
 </div>
@@ -175,17 +165,81 @@ Basics Data Manipulation
 </div>
 <div id=body-inner>
 <h1>
-Applied Data Science and Machine Learning
+Basics Data Manipulation
 </h1>
-<h2 id=m1---applied-data-science-and-machine-learning>M1 - Applied Data Science and Machine Learning</h2>
-<p>This module provides a condensed introduction to the “Data Science Pipeline”, introducing students to methods, techniques, and workflows in applied data analytics and machine learning, including data acquisition, preparation, analysis, visualization, and communication.</p>
+<div class="notices tip"><p>Use the tabs to access content. Theory part is general, R & Python application part language specific.</p>
+</div>
+<p>This session introduces some fundamental concepts of data manipulation and Exploratory Data Analysis. We will again start with a theoretical lecture on fundamental concepts and techniques in data manipulation, and afterwards again explore them in R and Python specific applications. These applications are complemented by recap exercises to test yourself.</p>
+<div class=tab-panel>
+<div class=tab-nav>
+<button data-tab-item="Theory: Fundamentals of Data Manipulation" data-tab-group=default class="tab-nav-button btn active" onclick="switchTab('default','Theory: Fundamentals of Data Manipulation')">Theory: Fundamentals of Data Manipulation</button>
+<button data-tab-item="R Application - Data Manipulation" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','R Application - Data Manipulation')">R Application - Data Manipulation</button>
+<button data-tab-item="Python Application - Data Manipulation" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','Python Application - Data Manipulation')">Python Application - Data Manipulation</button>
+</div>
+<div class=tab-content>
+<div data-tab-item="Theory: Fundamentals of Data Manipulation" data-tab-group=default class="tab-item active">
+<h2>Video</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/394d083071fc42219f5921fb394b3e6c frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+<h2>Slides</h2>
+Use arrows keys on keyboardto navigate. Alternatively fullscreen slides <a href=https://sds-aau.github.io/SDS-master/M1/notebooks/DS_basics_data_manipulation.html target=_blank>available here</a>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://sds-aau.github.io/SDS-master/M1/notebooks/DS_basics_data_manipulation.html frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:115%></iframe>
+</div>
+</div>
+<div data-tab-item="R Application - Data Manipulation" data-tab-group=default class=tab-item>
+<div>
+<h3>Follow along</h3>
+<ul>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://sds-aau.github.io/SDS-master/M1/notebooks/DS_basics_data_manipulation_application_R.nb.html target=_blank>HTML Notebook</a> </li>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/notebooks/DS_basics_data_manipulation_application_R.ipynb target=_blank>Colab Notebook</a> </li>
+</ul>
+<h3>Complementary Exercises</h2>
+<ul>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/notebooks/exercises/DS_basics_data_manipulation_application_R_ex1.ipynb target=_blank>1 Basics</a> </li>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/notebooks/exercises/DS_basics_data_manipulation_application_R_ex2.ipynb target=_blank>2 Joins</a> </li>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/notebooks/exercises/DS_basics_data_manipulation_application_R_ex3.ipynb target=_blank>3 Challange</a> </li>
+</ul>
+<h2>Video</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/06497181712a4fbf9bf4443d85926a35 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+</div>
+</div>
+<div data-tab-item="Python Application - Data Manipulation" data-tab-group=default class=tab-item>
+<div>
+<h3>Follow along</h3>
+<ul>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/notebooks/DS_basics_data_manipulation_application_py.ipynb target=_blank>Colab Notebook</a> </li>
+</ul>
+<h2>Video</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/8a19abb9b4f343c5bf5fd9382d73e883 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
 <footer class=footline>
 </footer>
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-prev" href=/DSBA-2021/info/05_requirements_project/ title="Final Project Requirements"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/DSBA-2021/m1/01_warmup/ title="Warmup (W35)" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/DSBA-2021/m1/02_basics/01_stat_prog/ title="Basics Statistical Programming"> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/DSBA-2021/m1/02_basics/01_stat_prog/ title="Basics Statistical Programming" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
