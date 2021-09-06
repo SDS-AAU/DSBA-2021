@@ -37,7 +37,7 @@ These pieces of work can be seen as main references for data science using R and
 * Notebook bases:
    * [Google Colab](https://colab.research.google.com): Googles popular service for editing, running & sharing Jupyter notebooks (Only Python Kernel, but R kernel can be accessed via some tricks)
    * [Deepnote](https://deepnote.com): New popular online notebook service with good integration to other services (Python, R & more)
-   * [Kaggle](https://www.kaggle.com/): Also provides their own cloud-based service co create and run computational notebooks. Convenient, unlimited, but a bit slow (Pyhton, r ).
+   * [Kaggle](https://www.kaggle.com/): Also provides their own cloud-based service co create and run computational notebooks. Convenient, unlimited, but a bit slow (Pyhton, R ).
 
 <!--- # TODO: Find something for CBS students
 * Instance based:

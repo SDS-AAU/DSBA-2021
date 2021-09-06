@@ -16,7 +16,7 @@ This session introduces some fundamental concepts of data manipulation and Explo
   {{< loom 394d083071fc42219f5921fb394b3e6c>}}
   
   <h2>Slides</h2>  
-  Use arrows keys on keyboardto navigate. Alternatively fullscreen slides <a href="https://sds-aau.github.io/SDS-master/M1/notebooks/DS_basics_data_manipulation.html" target="_blank">available here</a>
+  Use arrows keys on keyboard to navigate. Alternatively fullscreen slides <a href="https://sds-aau.github.io/SDS-master/M1/notebooks/DS_basics_data_manipulation.html" target="_blank">available here</a>
     
   {{< IncludeSlides "https://sds-aau.github.io/SDS-master/M1/notebooks/DS_basics_data_manipulation.html" >}}
 {{< /tab >}}
