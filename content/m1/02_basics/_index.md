@@ -41,8 +41,7 @@ Click on the **to do** for the week to see what you should do to keep up with th
 - [X] **Course Material** (Watch videos, study/run notebooks, solve provided exercises, optimally study suggested further material)
    * [Warmup]({{< ref "m1/01_warmup/_index.md" >}})
    * [Basics Statistical Programming]({{< ref "m1/02_basics/01_stat_prog.md" >}})
-   * [Basics Data Manipulation]({{< ref "m1/02_basics/012_data_manipulation.md" >}})
-   
+
 {{% /expand%}}
 
 * W 37: Unsupervised Machine Learning (UML), Supervised Machine Learning (SML)
