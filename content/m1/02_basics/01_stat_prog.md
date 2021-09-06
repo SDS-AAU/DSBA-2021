@@ -17,7 +17,7 @@ This session is a basic introduction to statistical programming as well as a sho
   {{< loom b7d14023383643b2b1dce248ed28ee68>}}
   
   <h2>Slides</h2>  
-  Use arrows keys on keyboardto navigate. Alternatively fullscreen slides <a href="https://sds-aau.github.io/SDS-master/M1/notebooks/DS_basics_data.html" target="_blank">available here</a>
+  Use arrows keys on keyboard to navigate. Alternatively fullscreen slides <a href="https://sds-aau.github.io/SDS-master/M1/notebooks/DS_basics_data.html" target="_blank">available here</a>
     
   {{< IncludeSlides "https://sds-aau.github.io/SDS-master/M1/notebooks/DS_basics_data.html" >}}
 {{< /tab >}}
