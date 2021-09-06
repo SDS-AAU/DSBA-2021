@@ -34,6 +34,7 @@ Click on the **to do** for the week to see what you should do to keep up with th
    * [Warmup]({{< ref "m1/01_warmup/_index.md" >}})
    * [Basics]({{< ref "m1/02_basics/01_stat_prog.md" >}})
    * [Data Manipulation]({{< ref "m1/02_basics/02_data_manipulation.md" >}})
+   
 {{% /expand%}}
 
 * W 37: Unsupervised Machine Learning (UML), Supervised Machine Learning (SML)
