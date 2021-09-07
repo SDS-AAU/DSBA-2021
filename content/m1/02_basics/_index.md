@@ -40,8 +40,9 @@ Click on the **to do** for the week to see what you should do to keep up with th
       * [Correlation and regression](https://learn.datacamp.com/courses/correlation-and-regression-in-r)
 - [X] **Course Material** (Watch videos, study/run notebooks, solve provided exercises, optimally study suggested further material)
    * [Warmup]({{< ref "m1/01_warmup/_index.md" >}})
-   * [Basics Statistical Programming]({{< ref "m1/02_basics/01_stat_prog.md" >}})
-
+   * [Basics Statistical Programming]({{< ref "m1/02_basics/01_stat_prog.md" >}}): Theory and either R or Python track
+   * [Basics Data Manipulation]({{< ref "m1/02_basics/02_data_manipulation.md" >}}): Theory and either R or Python track
+   
 {{% /expand%}}
 
 * W 37: Unsupervised Machine Learning (UML), Supervised Machine Learning (SML)
