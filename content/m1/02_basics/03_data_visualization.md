@@ -49,7 +49,7 @@ This session introduces some fundamental concepts of data visualization. After a
   {{< loom 131c377a473742f482fc961e873be956>}}
   
   <h2>Video Part 2</h2>
-  {{< loom 89c8cc61de7248b0a5b22d68eaa46beb>}}
+  {{< loom 923dd7f34fc3416596cd56c43325219d>}}
 </div>
 {{< /tab >}}
 
