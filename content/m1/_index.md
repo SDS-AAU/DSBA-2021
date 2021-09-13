@@ -38,4 +38,20 @@ Click on the **to do** for the week to see what you should do to keep up with th
 {{% /expand%}}
 
 * W 37: Unsupervised Machine Learning (UML), Supervised Machine Learning (SML)
+{{%expand "Weekly to do" %}}
+- [X] **Continue with the Course material** (Datacamp, recommended but not mandatory)
+   * Python
+      * [UML](https://learn.datacamp.com/courses/unsupervised-learning-in-python) 
+      * [Intro to supervised learning](https://learn.datacamp.com/courses/supervised-learning-with-scikit-learn)
+      * [Decision Tree modeling](https://learn.datacamp.com/courses/machine-learning-with-tree-based-models-in-python)
+   * R
+      * [UML](https://learn.datacamp.com/courses/unsupervised-learning-in-r)
+      * [Supervised classification](https://learn.datacamp.com/courses/supervised-learning-in-r-classification)
+      * [Supervised Regression](https://learn.datacamp.com/courses/supervised-learning-in-r-regression)
+- [X] **Course Material** (Watch videos, study/run notebooks, solve provided exercises, optimally study suggested further material)
+   * [Unsupervised ML]({{< ref "m1/03_ml/01_UML.md" >}})
+   * [Supervised ML]({{< ref "m1/03_ml/02_SML.md" >}})
+- [X] **Prepare for Q&A** (discuss in teams, send/prepare questions)
+{{% /expand%}}
+
 * W 38: Workshop & project work 
