@@ -7,17 +7,17 @@
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/DSBA-2021/images/favicon.png type=image/png>
 <title>Applied Data Science and Machine Learning :: Social Data Science 2021</title>
-<link href=/DSBA-2021/css/nucleus.css?1631023058 rel=stylesheet>
-<link href=/DSBA-2021/css/fontawesome-all.min.css?1631023058 rel=stylesheet>
-<link href=/DSBA-2021/css/hybrid.css?1631023058 rel=stylesheet>
-<link href=/DSBA-2021/css/featherlight.min.css?1631023058 rel=stylesheet>
-<link href=/DSBA-2021/css/perfect-scrollbar.min.css?1631023058 rel=stylesheet>
-<link href=/DSBA-2021/css/auto-complete.css?1631023058 rel=stylesheet>
-<link href=/DSBA-2021/css/atom-one-dark-reasonable.css?1631023058 rel=stylesheet>
-<link href=/DSBA-2021/css/theme.css?1631023058 rel=stylesheet>
-<link href=/DSBA-2021/css/tabs.css?1631023058 rel=stylesheet>
-<link href=/DSBA-2021/css/hugo-theme.css?1631023058 rel=stylesheet>
-<script src=/DSBA-2021/js/jquery-3.3.1.min.js?1631023058></script>
+<link href=/DSBA-2021/css/nucleus.css?1631521811 rel=stylesheet>
+<link href=/DSBA-2021/css/fontawesome-all.min.css?1631521811 rel=stylesheet>
+<link href=/DSBA-2021/css/hybrid.css?1631521811 rel=stylesheet>
+<link href=/DSBA-2021/css/featherlight.min.css?1631521811 rel=stylesheet>
+<link href=/DSBA-2021/css/perfect-scrollbar.min.css?1631521811 rel=stylesheet>
+<link href=/DSBA-2021/css/auto-complete.css?1631521811 rel=stylesheet>
+<link href=/DSBA-2021/css/atom-one-dark-reasonable.css?1631521811 rel=stylesheet>
+<link href=/DSBA-2021/css/theme.css?1631521811 rel=stylesheet>
+<link href=/DSBA-2021/css/tabs.css?1631521811 rel=stylesheet>
+<link href=/DSBA-2021/css/hugo-theme.css?1631521811 rel=stylesheet>
+<script src=/DSBA-2021/js/jquery-3.3.1.min.js?1631521811></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
 <body data-url=/DSBA-2021/m1/>
@@ -34,10 +34,10 @@ Data Science for Business Applications 2021
 <input data-search-input id=search-by type=search placeholder=Search...>
 <span data-search-clear><i class="fas fa-times"></i></span>
 </div>
-<script type=text/javascript src=/DSBA-2021/js/lunr.min.js?1631023058></script>
-<script type=text/javascript src=/DSBA-2021/js/auto-complete.js?1631023058></script>
+<script type=text/javascript src=/DSBA-2021/js/lunr.min.js?1631521811></script>
+<script type=text/javascript src=/DSBA-2021/js/auto-complete.js?1631521811></script>
 <script type=text/javascript>var baseurl="https://sds-aau.github.io/DSBA-2021/"</script>
-<script type=text/javascript src=/DSBA-2021/js/search.js?1631023058></script>
+<script type=text/javascript src=/DSBA-2021/js/search.js?1631521811></script>
 </div>
 <div class=highlightable>
 <ul class=topics>
@@ -128,6 +128,26 @@ Basics Data Manipulation
 <li data-nav-id=/DSBA-2021/m1/02_basics/03_data_visualization/ title="Basics Data Visualization" class=dd-item>
 <a href=/DSBA-2021/m1/02_basics/03_data_visualization/>
 Basics Data Visualization
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/DSBA-2021/m1/03_ml/ title="Basics Machine Learning (W37-38)" class=dd-item>
+<a href=/DSBA-2021/m1/03_ml/>
+Basics Machine Learning (W37-38)
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/DSBA-2021/m1/03_ml/01_uml/ title="Unsupervised Machine Learning (UML)" class=dd-item>
+<a href=/DSBA-2021/m1/03_ml/01_uml/>
+Unsupervised Machine Learning (UML)
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/DSBA-2021/m1/03_ml/02_sml/ title="Supervised Machine Learning (SML)" class=dd-item>
+<a href=/DSBA-2021/m1/03_ml/02_sml/>
+Supervised Machine Learning (SML)
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
@@ -236,8 +256,49 @@ Weekly to do
 </div>
 </div>
 <ul>
-<li>W 37: Unsupervised Machine Learning (UML), Supervised Machine Learning (SML)</li>
-<li>W 38: Workshop & project work</li>
+<li>
+<p>W 37: Unsupervised Machine Learning (UML), Supervised Machine Learning (SML)
+<div class=expand>
+<div class=expand-label style=cursor:pointer onclick="$h=$(this),$h.next('div').slideToggle(100,function(){$h.children('i').attr('class',function(){return $h.next('div').is(':visible')?'fas fa-chevron-down':'fas fa-chevron-right'})})">
+<i style=font-size:x-small class="fas fa-chevron-right"></i>
+<span>
+Weekly to do
+</span>
+</div>
+<div class=expand-content style=display:none>
+<ul>
+<li><input checked disabled type=checkbox> <strong>Continue with the Course material</strong> (Datacamp, recommended but not mandatory)
+<ul>
+<li>Python
+<ul>
+<li><a href=https://learn.datacamp.com/courses/unsupervised-learning-in-python target=_blank>UML</a></li>
+<li><a href=https://learn.datacamp.com/courses/supervised-learning-with-scikit-learn target=_blank>Intro to supervised learning</a></li>
+<li><a href=https://learn.datacamp.com/courses/machine-learning-with-tree-based-models-in-python target=_blank>Decision Tree modeling</a></li>
+</ul>
+</li>
+<li>R
+<ul>
+<li><a href=https://learn.datacamp.com/courses/unsupervised-learning-in-r target=_blank>UML</a></li>
+<li><a href=https://learn.datacamp.com/courses/supervised-learning-in-r-classification target=_blank>Supervised classification</a></li>
+<li><a href=https://learn.datacamp.com/courses/supervised-learning-in-r-regression target=_blank>Supervised Regression</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input checked disabled type=checkbox> <strong>Course Material</strong> (Watch videos, study/run notebooks, solve provided exercises, optimally study suggested further material)
+<ul>
+<li><a href=/DSBA-2021/m1/03_ml/01_uml/>Unsupervised ML</a></li>
+<li><a href=/DSBA-2021/m1/03_ml/02_sml/>Supervised ML</a></li>
+</ul>
+</li>
+<li><input checked disabled type=checkbox> <strong>Prepare for Q&A</strong> (discuss in teams, send/prepare questions)</li>
+</ul>
+</div>
+</div></p>
+</li>
+<li>
+<p>W 38: Workshop & project work</p>
+</li>
 </ul>
 <footer class=footline>
 </footer>
@@ -251,17 +312,17 @@ Weekly to do
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
 <div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
 </div>
-<script src=/DSBA-2021/js/clipboard.min.js?1631023058></script>
-<script src=/DSBA-2021/js/perfect-scrollbar.min.js?1631023058></script>
-<script src=/DSBA-2021/js/perfect-scrollbar.jquery.min.js?1631023058></script>
-<script src=/DSBA-2021/js/jquery.sticky.js?1631023058></script>
-<script src=/DSBA-2021/js/featherlight.min.js?1631023058></script>
-<script src=/DSBA-2021/js/highlight.pack.js?1631023058></script>
+<script src=/DSBA-2021/js/clipboard.min.js?1631521811></script>
+<script src=/DSBA-2021/js/perfect-scrollbar.min.js?1631521811></script>
+<script src=/DSBA-2021/js/perfect-scrollbar.jquery.min.js?1631521811></script>
+<script src=/DSBA-2021/js/jquery.sticky.js?1631521811></script>
+<script src=/DSBA-2021/js/featherlight.min.js?1631521811></script>
+<script src=/DSBA-2021/js/highlight.pack.js?1631521811></script>
 <script>hljs.initHighlightingOnLoad()</script>
-<script src=/DSBA-2021/js/modernizr.custom-3.6.0.js?1631023058></script>
-<script src=/DSBA-2021/js/learn.js?1631023058></script>
-<script src=/DSBA-2021/js/hugo-learn.js?1631023058></script>
-<script src=/DSBA-2021/mermaid/mermaid.js?1631023058></script>
+<script src=/DSBA-2021/js/modernizr.custom-3.6.0.js?1631521811></script>
+<script src=/DSBA-2021/js/learn.js?1631521811></script>
+<script src=/DSBA-2021/js/hugo-learn.js?1631521811></script>
+<script src=/DSBA-2021/mermaid/mermaid.js?1631521811></script>
 <script>mermaid.initialize({startOnLoad:!0})</script>
 <script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-105947713-1','auto'),ga('send','pageview')</script>
 </body>
