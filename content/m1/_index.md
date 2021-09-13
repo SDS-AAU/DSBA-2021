@@ -16,7 +16,6 @@ Click on the **to do** for the week to see what you should do to keep up with th
 {{% /notice %}}
 
 * W 36: Data Manipulation, Exploratory Data Analysis (EDA), Data Visualization
-
 {{%expand "Weekly to do" %}}
 - [X] **Introduction to R & Python** (Datacamp, both necessary if no prior experience)
    * [Intro to Python](https://learn.datacamp.com/courses/intro-to-python-for-data-science) and/or [R](https://learn.datacamp.com/courses/free-introduction-to-r)
