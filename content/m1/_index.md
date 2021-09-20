@@ -54,3 +54,14 @@ Click on the **to do** for the week to see what you should do to keep up with th
 {{% /expand%}}
 
 * W 38: Workshop & project work 
+
+## Q&A Sessions
+
+### W36
+
+Comming soon
+
+### W37
+
+{{< panopto "https://cbs.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9f8bd734-5ee2-4f0a-a6d3-ada9006db458">}}
+
