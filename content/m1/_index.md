@@ -57,11 +57,12 @@ Click on the **to do** for the week to see what you should do to keep up with th
 
 ## Q&A Sessions
 
-{{%expand "W37 %}}
+### W36
+
 {{< panopto "https://cbs.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d84603bb-f73b-4c88-8626-ada900e70954">}}
-{{% /expand%}}
 
 
-{{%expand "W37 %}}
+
+### W37
 {{< panopto "https://cbs.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9f8bd734-5ee2-4f0a-a6d3-ada9006db458">}}
-{{% /expand%}}
+
