@@ -34,7 +34,10 @@ You are given 2 datasets from `https://nomadlist.com` - A community page for rem
     c.  Which country in “Western Europe” did travelers spent least time? – Provide visualization
     d. Do nomad Startup Founders tend to have shorter or longer trips on average? 
 
+## Solutions
 
+* R team [:::: HERE ::::](https://sds-aau.github.io/SDS-master/M1/Notebooks/assignments/assignment1_solution_r_nomads.nb.html)
+* Py team (coming...I know I'm late)
      
 
  
