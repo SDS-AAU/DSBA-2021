@@ -25,5 +25,8 @@ The data is available through the URL: `https://sds-aau.github.io/SDS-master/00_
 7. Perform a cluster analysis on all numerical variables scaled and AFTER dimensionality reduction and visualize the first 2 principal components.
 8. Again, inspect the distribution of the variable “Type 1” across clusters, does it differ from the distribution before dimensionality reduction?
      
+## Solutions
 
+* R team [:::: HERE ::::](https://sds-aau.github.io/SDS-master/M1/Notebooks/assignments/assignment2_solution_r_pokemon.nb.html)
+* Py team (coming...I know I'm late)
  
