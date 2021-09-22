@@ -28,5 +28,6 @@ The data is available through the URL: `https://sds-aau.github.io/SDS-master/00_
 ## Solutions
 
 * R team [:::: HERE ::::](https://sds-aau.github.io/SDS-master/M1/Notebooks/assignments/assignment2_solution_r_pokemon.nb.html)
-* Py team (coming...I know I'm late)
+* Py team [:::: HERE :::: - Includes also some SML](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/Notebooks/assignments/assignment2_solution_py_UML_SML.ipynb)
+ 
  
