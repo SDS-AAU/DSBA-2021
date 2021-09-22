@@ -7,17 +7,17 @@
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/DSBA-2021/images/favicon.png type=image/png>
 <title>Day 1 :: Social Data Science 2021</title>
-<link href=/DSBA-2021/css/nucleus.css?1632332612 rel=stylesheet>
-<link href=/DSBA-2021/css/fontawesome-all.min.css?1632332612 rel=stylesheet>
-<link href=/DSBA-2021/css/hybrid.css?1632332612 rel=stylesheet>
-<link href=/DSBA-2021/css/featherlight.min.css?1632332612 rel=stylesheet>
-<link href=/DSBA-2021/css/perfect-scrollbar.min.css?1632332612 rel=stylesheet>
-<link href=/DSBA-2021/css/auto-complete.css?1632332612 rel=stylesheet>
-<link href=/DSBA-2021/css/atom-one-dark-reasonable.css?1632332612 rel=stylesheet>
-<link href=/DSBA-2021/css/theme.css?1632332612 rel=stylesheet>
-<link href=/DSBA-2021/css/tabs.css?1632332612 rel=stylesheet>
-<link href=/DSBA-2021/css/hugo-theme.css?1632332612 rel=stylesheet>
-<script src=/DSBA-2021/js/jquery-3.3.1.min.js?1632332612></script>
+<link href=/DSBA-2021/css/nucleus.css?1632332955 rel=stylesheet>
+<link href=/DSBA-2021/css/fontawesome-all.min.css?1632332955 rel=stylesheet>
+<link href=/DSBA-2021/css/hybrid.css?1632332955 rel=stylesheet>
+<link href=/DSBA-2021/css/featherlight.min.css?1632332955 rel=stylesheet>
+<link href=/DSBA-2021/css/perfect-scrollbar.min.css?1632332955 rel=stylesheet>
+<link href=/DSBA-2021/css/auto-complete.css?1632332955 rel=stylesheet>
+<link href=/DSBA-2021/css/atom-one-dark-reasonable.css?1632332955 rel=stylesheet>
+<link href=/DSBA-2021/css/theme.css?1632332955 rel=stylesheet>
+<link href=/DSBA-2021/css/tabs.css?1632332955 rel=stylesheet>
+<link href=/DSBA-2021/css/hugo-theme.css?1632332955 rel=stylesheet>
+<script src=/DSBA-2021/js/jquery-3.3.1.min.js?1632332955></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
 <body data-url=/DSBA-2021/m1/04_workshops/w1/>
@@ -34,10 +34,10 @@ Data Science for Business Applications 2021
 <input data-search-input id=search-by type=search placeholder=Search...>
 <span data-search-clear><i class="fas fa-times"></i></span>
 </div>
-<script type=text/javascript src=/DSBA-2021/js/lunr.min.js?1632332612></script>
-<script type=text/javascript src=/DSBA-2021/js/auto-complete.js?1632332612></script>
+<script type=text/javascript src=/DSBA-2021/js/lunr.min.js?1632332955></script>
+<script type=text/javascript src=/DSBA-2021/js/auto-complete.js?1632332955></script>
 <script type=text/javascript>var baseurl="https://sds-aau.github.io/DSBA-2021/"</script>
-<script type=text/javascript src=/DSBA-2021/js/search.js?1632332612></script>
+<script type=text/javascript src=/DSBA-2021/js/search.js?1632332955></script>
 </div>
 <div class=highlightable>
 <ul class=topics>
@@ -267,17 +267,44 @@ Time: 8:15 (we start 15 min later) - 13:20</p>
 </tr>
 </tbody>
 </table>
-<h2 id=some-context>Some context</h2>
+<h2 id=sdatasets--context>SDatasets & Context</h2>
 <h3 id=open-policing-project>Open policing project</h3>
 <p><img src="https://openpolicing.stanford.edu/img/logo_large_w_padding.png?width=20pc" alt></p>
-<p>This dataset records trafic stops by US police including data on the vehicle, driver, violation, outcome and many more variables. It has been used in research to investigate racial bias and other issues.</p>
-<h3 id=nomad-dataset>Nomad Dataset</h3>
+<p>The Stanford <a href=https://openpolicing.stanford.edu/ target=_blank>Open Policing Dataset</a> records trafic stops by US police including data on the vehicle, driver, violation, outcome and many more variables. It has been used in research to investigate racial bias and other issues. I</p>
+<h3 id=digital-nomad-dataset>Digital Nomad Dataset</h3>
 <p><img src=https://source.unsplash.com/Wu2MXvbyt7w/800 alt></p>
-<p>In this workshop we are going to explore the <a href=https://nomadlist.com/ target=_blank>nomad data (cities)</a> using unsupervised ML techniques.
-We used the data in a research project some years ago and you can check out a conference presentation below:</p>
+<p>In this workshop we are going to explore the <a href=https://nomadlist.com/ target=_blank>nomad data</a> using unsupervised ML techniques. This time we will focus on the city data, whichn you have not sen so far.</p>
+<p>We used the data in a research project some years ago and you can check out a conference presentation below:</p>
 <div id=Container style=padding-bottom:56.25%;position:relative;display:block;width:100%>
 <iframe id=googleSlideIframe width=100% height=100% src="https://docs.google.com/presentation/d/e/2PACX-1vT4vscJkhs44adv0_e-W_brWyHi2Yiq4hkhl0jZfDFEC9CBwF72bYdNnl0pdsSXLCwiiAQpuLZB9w2S/embed?start=false&loop=false&delayms=60000" frameborder=0 allowfullscreen style=position:absolute;top:0;left:0></iframe>
 </div>
+<p><strong>Suggested Workflow</strong></p>
+<p>You will find the data for today&rsquo;s session here: <code>https://sds-aau.github.io/SDS-master/M1/data/cities.csv</code></p>
+<ul>
+<li>Stratup
+<ul>
+<li>Load up and explore the data (a bit)</li>
+<li>Clean up if you thing you neeed to</li>
+<li>Select the nummerical variables to be used for UML</li>
+<li>Preprocess the data for UML</li>
+</ul>
+</li>
+<li>Dimensionality reduction
+<ul>
+<li>Use PCA for dimensionality reduction</li>
+<li>Explore variable loading</li>
+<li>Plot 1. vs 2. component</li>
+<li>If you want, use another algorithm for the same steps and compare results</li>
+</ul>
+</li>
+<li>Clustering
+<ul>
+<li>Perform a clustering on the (reduced?) data</li>
+<li>Plot the clusters into the above visualization</li>
+<li>Explore the results (clusters vs components / clusters vs aggregated variables of interest)</li>
+</ul>
+</li>
+</ul>
 <footer class=footline>
 </footer>
 </div>
@@ -290,17 +317,17 @@ We used the data in a research project some years ago and you can check out a co
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
 <div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
 </div>
-<script src=/DSBA-2021/js/clipboard.min.js?1632332612></script>
-<script src=/DSBA-2021/js/perfect-scrollbar.min.js?1632332612></script>
-<script src=/DSBA-2021/js/perfect-scrollbar.jquery.min.js?1632332612></script>
-<script src=/DSBA-2021/js/jquery.sticky.js?1632332612></script>
-<script src=/DSBA-2021/js/featherlight.min.js?1632332612></script>
-<script src=/DSBA-2021/js/highlight.pack.js?1632332612></script>
+<script src=/DSBA-2021/js/clipboard.min.js?1632332955></script>
+<script src=/DSBA-2021/js/perfect-scrollbar.min.js?1632332955></script>
+<script src=/DSBA-2021/js/perfect-scrollbar.jquery.min.js?1632332955></script>
+<script src=/DSBA-2021/js/jquery.sticky.js?1632332955></script>
+<script src=/DSBA-2021/js/featherlight.min.js?1632332955></script>
+<script src=/DSBA-2021/js/highlight.pack.js?1632332955></script>
 <script>hljs.initHighlightingOnLoad()</script>
-<script src=/DSBA-2021/js/modernizr.custom-3.6.0.js?1632332612></script>
-<script src=/DSBA-2021/js/learn.js?1632332612></script>
-<script src=/DSBA-2021/js/hugo-learn.js?1632332612></script>
-<script src=/DSBA-2021/mermaid/mermaid.js?1632332612></script>
+<script src=/DSBA-2021/js/modernizr.custom-3.6.0.js?1632332955></script>
+<script src=/DSBA-2021/js/learn.js?1632332955></script>
+<script src=/DSBA-2021/js/hugo-learn.js?1632332955></script>
+<script src=/DSBA-2021/mermaid/mermaid.js?1632332955></script>
 <script>mermaid.initialize({startOnLoad:!0})</script>
 <script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-105947713-1','auto'),ga('send','pageview')</script>
 </body>
