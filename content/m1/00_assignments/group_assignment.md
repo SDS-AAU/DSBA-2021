@@ -82,7 +82,7 @@ You are asked to hand in a **well commented functional computational notebook**
 
 The notebook targets a machine-learning literate audience. Here you can go deeper into the technical details and method considerations. Provide thorough documentation of the whole process, the used methods. Describe the intuition behind the selected and used methods, justify choices made, and interpret results (e.g. Why scaling? Why splitting the data? Why certain tabulations and visualizations? What can be seen from ... ?, How did you select a particular algorithm? Why did you scale features in one way or another?).  
 
-Please provide the notebook as a PDF (Knittered from rmd or converted ipynb) with a public link to a functional Colab version (test it beforehand in incognito/private mode of your browser) 
+Please provide the notebook as a PDF.
 
 <!---
 ## Finally
