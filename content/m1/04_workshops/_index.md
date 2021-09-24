@@ -18,5 +18,8 @@ Our first round of live workshops. For details, see the individual days.
    * [{{< awesome fas fa-laptop-code >}} Python Notebook - UML](https://colab.research.google.com/github/SDS-AAU/DSBA-2021/blob/master/static/notebooks/DSBA21_w1_2.ipynb)
 
 
+### Day 2
 
+1. AirBnb
+   * [python notebook working edition](https://colab.research.google.com/drive/10BckisDHxeayFLiZ4iqGee938Fzl7Hpi?usp=sharing)
 
