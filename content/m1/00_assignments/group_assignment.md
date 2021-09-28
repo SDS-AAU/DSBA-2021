@@ -84,10 +84,8 @@ The notebook targets a machine-learning literate audience. Here you can go deepe
 
 Please provide the notebook as a PDF.
 
-<!---
+
 ## Finally
 
--   Submission deadline is **27.09** - on [https://digitaleksamen.aau.dk/](https://digitaleksamen.aau.dk/)
--   Write to the secretary about your groups and language choice
---->
+-   Submission deadline is **29.09, 23:59** - on peergrade (class code: N8A46K)
 -  In case of trouble/issues/questions, please write on Teams.
