@@ -6,7 +6,7 @@
 <meta name=description content="CBS Data Science for Business Applications 2021">
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/DSBA-2021/images/favicon.png type=image/png>
-<title>Basics Data Visualization :: Social Data Science 2021</title>
+<title>Basics Network Analysis :: Social Data Science 2021</title>
 <link href=/DSBA-2021/css/nucleus.css?1632939282 rel=stylesheet>
 <link href=/DSBA-2021/css/fontawesome-all.min.css?1632939282 rel=stylesheet>
 <link href=/DSBA-2021/css/hybrid.css?1632939282 rel=stylesheet>
@@ -20,7 +20,7 @@
 <script src=/DSBA-2021/js/jquery-3.3.1.min.js?1632939282></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/DSBA-2021/m1/02_basics/03_data_visualization/>
+<body data-url=/DSBA-2021/m2/01_networks/0_networks/>
 <nav id=sidebar class=showVisitedLinks>
 <div id=header-wrapper>
 <div id=header>
@@ -79,8 +79,7 @@ Final Project Requirements
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m1/ title="Applied Data Science and Machine Learning" class="dd-item
-parent">
+<li data-nav-id=/DSBA-2021/m1/ title="Applied Data Science and Machine Learning" class=dd-item>
 <a href=/DSBA-2021/m1/>
 <b>1. </b>Applied Data Science and Machine Learning
 <i class="fas fa-check read-icon"></i>
@@ -112,8 +111,7 @@ M1 (Mandatory) Assignment
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m1/02_basics/ title="Basics of Statistical Programming and Data Manipulation (W36)" class="dd-item
-parent">
+<li data-nav-id=/DSBA-2021/m1/02_basics/ title="Basics of Statistical Programming and Data Manipulation (W36)" class=dd-item>
 <a href=/DSBA-2021/m1/02_basics/>
 Basics of Statistical Programming and Data Manipulation (W36)
 <i class="fas fa-check read-icon"></i>
@@ -131,7 +129,7 @@ Basics Data Manipulation
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/DSBA-2021/m1/02_basics/03_data_visualization/ title="Basics Data Visualization" class="dd-item active">
+<li data-nav-id=/DSBA-2021/m1/02_basics/03_data_visualization/ title="Basics Data Visualization" class=dd-item>
 <a href=/DSBA-2021/m1/02_basics/03_data_visualization/>
 Basics Data Visualization
 <i class="fas fa-check read-icon"></i>
@@ -201,7 +199,8 @@ The Data Science Ecosystem
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m2/ title="Network Analysis & NLP" class=dd-item>
+<li data-nav-id=/DSBA-2021/m2/ title="Network Analysis & NLP" class="dd-item
+parent">
 <a href=/DSBA-2021/m2/>
 <b>2. </b>Network Analysis & NLP
 <i class="fas fa-check read-icon"></i>
@@ -219,13 +218,14 @@ Workshops
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/DSBA-2021/m2/01_networks/ title="Network Analysis" class=dd-item>
+<li data-nav-id=/DSBA-2021/m2/01_networks/ title="Network Analysis" class="dd-item
+parent">
 <a href=/DSBA-2021/m2/01_networks/>
 Network Analysis
 <i class="fas fa-check read-icon"></i>
 </a>
 <ul>
-<li data-nav-id=/DSBA-2021/m2/01_networks/0_networks/ title="Basics Network Analysis" class=dd-item>
+<li data-nav-id=/DSBA-2021/m2/01_networks/0_networks/ title="Basics Network Analysis" class="dd-item active">
 <a href=/DSBA-2021/m2/01_networks/0_networks/>
 Basics Network Analysis
 <i class="fas fa-check read-icon"></i>
@@ -262,7 +262,7 @@ Basics Network Analysis
 </a>
 </span>
 <span class=links>
-<a href=/DSBA-2021/>Data Science for Business Applications 2021</a> > <a href=/DSBA-2021/m1/>Applied Data Science and Machine Learning</a> > <a href=/DSBA-2021/m1/02_basics/>Basics of Statistical Programming and Data Manipulation (W36)</a> > Basics Data Visualization
+<a href=/DSBA-2021/>Data Science for Business Applications 2021</a> > <a href=/DSBA-2021/m2/>Network Analysis & NLP</a> > <a href=/DSBA-2021/m2/01_networks/>Network Analysis</a> > Basics Network Analysis
 </span>
 </div>
 </div>
@@ -271,61 +271,81 @@ Basics Network Analysis
 </div>
 <div id=body-inner>
 <h1>
-Basics Data Visualization
+Basics Network Analysis
 </h1>
 <div class="notices tip"><p>Use the tabs to access content. Theory part is general, R & Python application part language specific.</p>
 </div>
-<p>This session introduces some fundamental concepts of data visualization. After a theoretical lecture on types and dimensions of data visualization, we will explore the visualization of different data types, structure, and properties in R and Python specific applications.</p>
+<p>This session introduces unsupervised machine learning (UML)</p>
+<ul>
+<li><input checked disabled type=checkbox> <strong>Recommended Datacamp exercises:</strong>
+<ul>
+<li><a href=xxx>Python</a> Comming soon</li>
+<li><a href=xxx>R</a> Comming soon</li>
+</ul>
+</li>
+</ul>
 <div class=tab-panel>
 <div class=tab-nav>
-<button data-tab-item="Theory: Elements of Data Visualization" data-tab-group=default class="tab-nav-button btn active" onclick="switchTab('default','Theory: Elements of Data Visualization')">Theory: Elements of Data Visualization</button>
-<button data-tab-item="R Application - Data Visualization" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','R Application - Data Visualization')">R Application - Data Visualization</button>
-<button data-tab-item="Python Application - Data Visualization" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','Python Application - Data Visualization')">Python Application - Data Visualization</button>
+<button data-tab-item="Theory: Network Analysis" data-tab-group=default class="tab-nav-button btn active" onclick="switchTab('default','Theory: Network Analysis')">Theory: Network Analysis</button>
+<button data-tab-item="R Application - Network Analysis" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','R Application - Network Analysis')">R Application - Network Analysis</button>
+<button data-tab-item="Python Application - Network Analysis" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','Python Application - Network Analysis')">Python Application - Network Analysis</button>
 </div>
 <div class=tab-content>
-<div data-tab-item="Theory: Elements of Data Visualization" data-tab-group=default class="tab-item active">
+<div data-tab-item="Theory: Network Analysis" data-tab-group=default class="tab-item active">
 <h2>Video</h2>
 <div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/73c049cd420d46f3b1129944b0e9e6ea frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+<iframe src=https://www.loom.com/embed/307f388fbb3d4e73919250aa6eb535f0 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
 </div>
 <h2>Slides</h2>
-Use arrows keys on keyboardto navigate. Alternatively fullscreen slides <a href=https://sds-aau.github.io/SDS-master/M1/notebooks/EDA_dataviz_intro.html target=_blank>available here</a>
+Use arrows keys on keyboard to navigate. Alternatively fullscreen slides <a href=https://sds-aau.github.io/SDS-master/M2/notebooks/network_analysis_theory.html target=_blank>available here</a>
 <div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://sds-aau.github.io/SDS-master/M1/notebooks/EDA_dataviz_intro.html frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:115%></iframe>
+<iframe src=https://sds-aau.github.io/SDS-master/M2/notebooks/network_analysis_theory.html frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:115%></iframe>
 </div>
 </div>
-<div data-tab-item="R Application - Data Visualization" data-tab-group=default class=tab-item>
+<div data-tab-item="R Application - Network Analysis" data-tab-group=default class=tab-item>
 <div>
 <h3>Follow along</h3>
 <ul>
 <li>
 <i class="fas fa-laptop-code"></i>
-<a href=https://sds-aau.github.io/SDS-master/M1/notebooks/EDA_dataviz_application_R.nb.html target=_blank>HTML Notebook</a> </li>
+<a href=https://sds-aau.github.io/SDS-master/M2/notebooks/network_analysis_application.nb.html target=_blank>HTML Notebook</a> </li>
 <li>
 <i class="fas fa-laptop-code"></i>
-<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/notebooks/EDA_dataviz_application_R.ipynb target=_blank>Colab Notebook</a> </li>
+<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/network_analysis_application.ipynb target=_blank>Colab Notebook</a> </li>
 </ul>
-<h2>Video</h2>
+<h2>Video 1: Intro & Ecosystem</h2>
 <div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/c1b84f6e59ce4b02935b0088744cfc5b frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+<iframe src=https://www.loom.com/embed/abe75a61d7374ae99f946e1a5829430e frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+<h2>Video 2: Network Measures/h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/981c493c990c46f591f465455a0d5bba frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+<h2>Video 3: Mini-Case/h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/9fc0c009945c4fb0b3aaa0be77f52707 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
 </div>
 </div>
 </div>
-<div data-tab-item="Python Application - Data Visualization" data-tab-group=default class=tab-item>
+<div data-tab-item="Python Application - Network Analysis" data-tab-group=default class=tab-item>
 <div>
 <h3>Follow along</h3>
 <ul>
 <li>
 <i class="fas fa-laptop-code"></i>
-<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/Notebooks/EDA_dataviz_application_Py.ipynb target=_blank>Colab Notebook</a> </li>
+<a href=https://github.com/SDS-AAU/SDS-master/blob/master/M2/notebooks/M2_Networks_hands_on_in_python.ipynb target=_blank>Colab Notebook</a> </li>
 </ul>
-<h2>Video Part 1</h2>
+<h2>Video 1: Intro & Ecosystem</h2>
 <div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/131c377a473742f482fc961e873be956 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+<iframe src=https://www.loom.com/embed/e2a1e501c1474b70aaa64bad5257d635 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
 </div>
-<h2>Video Part 2</h2>
+<h2>Video 2: Network Measures</h2>
 <div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/923dd7f34fc3416596cd56c43325219d frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+<iframe src=https://www.loom.com/embed/3556014c3e2b4fd39d675e05258f5041 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+<h2>Video 3: Mini-Case</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/75ed0b7f781a447991f28149bbe54c04 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
 </div>
 </div>
 </div>
@@ -336,8 +356,8 @@ Use arrows keys on keyboardto navigate. Alternatively fullscreen slides <a href=
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-prev" href=/DSBA-2021/m1/02_basics/02_data_manipulation/ title="Basics Data Manipulation"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/DSBA-2021/m1/03_ml/ title="Basics Machine Learning (W37-38)" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/DSBA-2021/m2/01_networks/ title="Network Analysis"> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/DSBA-2021/m2/00_assignments/ title=Assignments style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
