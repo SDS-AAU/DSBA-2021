@@ -1,5 +1,5 @@
 ---
-title: "Exerciset 2 - UML with Pokemon"
+title: "Exercise 2 - UML with Pokemon"
 weight: 2
 disableToc: true
 ---

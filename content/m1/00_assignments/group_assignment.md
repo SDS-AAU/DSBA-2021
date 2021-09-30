@@ -90,3 +90,8 @@ Please provide the notebook as a PDF.
 -  Submission deadline is **29.09, 23:59** - on peergrade (class code: N8A46K)
 -  Peer Feedback deadline is **04.10, 23:59** - PRovide constructive comments as you would like to recieve them
 -  In case of trouble/issues/questions, please write on Teams.
+
+
+## Getting good looking PDFs from jupyter notebooks
+
+{{< loom  9d1add222dbb4ec6a6fe91d197eaf7db >}}
