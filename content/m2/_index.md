@@ -7,7 +7,7 @@ chapter: false
 
 ## M2 - Network Analysis & NLP
 
-This module provides a condensed introduction analysing two popular forms of unbstructured data, namely relational and text data.
+This module provides a condensed introduction analysing two popular forms of unstructured data, namely relational and text data.
 
 ## Content by week for this module
 
@@ -17,8 +17,8 @@ Click on the **to do** for the week to see what you should do to keep up with th
 
 * W 40: Introduction to Network Analysis
 * W 41: Introduction to Natural-Language-Processing (NLP)
-* W 43: Advanced applications in Network and Text Analysis
-* W 44: Project work + exam
+* W 41: Advanced applications in Network and Text Analysis
+* W 42: Assignment work
 
 
 <!---
