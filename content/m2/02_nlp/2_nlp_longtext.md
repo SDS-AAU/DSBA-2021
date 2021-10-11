@@ -23,10 +23,7 @@ disableToc: true
 
 
   <h2>Preprocessing & Sentiments</h2>
-  {{< loom 693668d74ce74697870fd97a8256d682 >}}
-
-    <h2>Entity extraction</h2>
-  {{< loom 647407c8959a4702b14c7db8dcf055f0 >}}
+  {{< loom 068427acd7754e96b46116bc69e1d387 >}}
 
 
 </div>
