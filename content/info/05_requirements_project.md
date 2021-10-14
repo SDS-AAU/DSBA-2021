@@ -1,17 +1,15 @@
 ---
-title: Final Project Requirements
+title: Semester Project Requirements
 weight: 5
 chapter: false
+draft: true
 ---
 
-To be updated soon
-
-<!---
 ## Format
 
 * Functional and self-contained notebook
 * Happy to see GitHub repos (which you can use as your portfolio in the job market)
-* Project report (page requirements: XX)
+* Project report (30-ish pages - max. 45)
 * Some study relation (but that is debatable and not necessarily required)
 * Report is a (semi/non) technical documentation. Think about a corporate censor that you try to inform
 
@@ -35,5 +33,3 @@ To be updated soon
 * Evaluation will focus on correct application and communication of DS methods
 * The level of "technicality" is as in the course with emphasis on application and intuition, not on ML engineering / mathematics
 * However, you will need to demonstrate insight into statistics on a level that is required to discuss your assignment e.g. interpret and discuss performance indicators, outline strategies for improvement e.g. under/oversampling
-
---->
