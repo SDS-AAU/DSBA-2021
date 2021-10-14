@@ -38,21 +38,21 @@ Both datasets are in JSON format.
 
 | Time        | Activity                                                              |
 |-------------|-----------------------------------------------------------------------|
-| 9:10-9:30   | Indivitual/Groups work making sense of data, preprocess                   |
-| 9:30-9:45   | Follow up in class               |
-| 10:00-11:00 | Train SML model for congress and classify the pres. debate tweets  R/Py split                                     |
-| 11:10-11:30 | Discuss solutions R/Py split                                          |
-| 11:30-12:00 | Joint review, Hand out Peergrade assignment                           |  
+| 11:40-12:00 | Introduction to the context                                           |
+| 12:00-13:00 | Joint EDA and NLP refresher                                           |
+| 13:15-14:45 | Setting up the NLP workflow on congress tweets                        |
+| 15:00-16:00 | PRedicting on new data, evaluation of results                         |
+| 16:15-17:00 | Hand out Peergrade assignment, Introduction to final project          |  
 
 
 
-
+<!---
 ## In class Notebooks
 
-* R team [:::: HERE ::::](https://sds-aau.github.io/SDS-2021/workshops/2021/M2_workshop_nlp_R.nb.html)
+* R team [:::: HERE ::::](xxx)
 
-* Python team [:::: HERE ::::](https://colab.research.google.com/github/SDS-AAU/SDS-2021/blob/master/static/workshops/2021/SDS21_M2W2.ipynb)
-
+* Python team [:::: HERE ::::](xxx)
+--->
 
 <!---
 * [{{< awesome fas fa-laptop-code >}} Py Colab - With comments](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/exercises/M2_W1_Elites.ipynb
