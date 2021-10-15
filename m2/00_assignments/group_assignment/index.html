@@ -6,7 +6,7 @@
 <meta name=description content="CBS Data Science for Business Applications 2021">
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/DSBA-2021/images/favicon.png type=image/png>
-<title>Basics Data Visualization :: Social Data Science 2021</title>
+<title>M2 (Mandatory) Assignment :: Social Data Science 2021</title>
 <link href=/DSBA-2021/css/nucleus.css?1634307605 rel=stylesheet>
 <link href=/DSBA-2021/css/fontawesome-all.min.css?1634307605 rel=stylesheet>
 <link href=/DSBA-2021/css/hybrid.css?1634307605 rel=stylesheet>
@@ -20,7 +20,7 @@
 <script src=/DSBA-2021/js/jquery-3.3.1.min.js?1634307605></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/DSBA-2021/m1/02_basics/03_data_visualization/>
+<body data-url=/DSBA-2021/m2/00_assignments/group_assignment/>
 <nav id=sidebar class=showVisitedLinks>
 <div id=header-wrapper>
 <div id=header>
@@ -79,8 +79,7 @@ Semester Project Requirements
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m1/ title="Applied Data Science and Machine Learning" class="dd-item
-parent">
+<li data-nav-id=/DSBA-2021/m1/ title="Applied Data Science and Machine Learning" class=dd-item>
 <a href=/DSBA-2021/m1/>
 <b>1. </b>Applied Data Science and Machine Learning
 <i class="fas fa-check read-icon"></i>
@@ -112,8 +111,7 @@ M1 (Mandatory) Assignment
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m1/02_basics/ title="Basics of Statistical Programming and Data Manipulation (W36)" class="dd-item
-parent">
+<li data-nav-id=/DSBA-2021/m1/02_basics/ title="Basics of Statistical Programming and Data Manipulation (W36)" class=dd-item>
 <a href=/DSBA-2021/m1/02_basics/>
 Basics of Statistical Programming and Data Manipulation (W36)
 <i class="fas fa-check read-icon"></i>
@@ -131,7 +129,7 @@ Basics Data Manipulation
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/DSBA-2021/m1/02_basics/03_data_visualization/ title="Basics Data Visualization" class="dd-item active">
+<li data-nav-id=/DSBA-2021/m1/02_basics/03_data_visualization/ title="Basics Data Visualization" class=dd-item>
 <a href=/DSBA-2021/m1/02_basics/03_data_visualization/>
 Basics Data Visualization
 <i class="fas fa-check read-icon"></i>
@@ -201,13 +199,15 @@ The Data Science Ecosystem
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m2/ title="Network Analysis & NLP" class=dd-item>
+<li data-nav-id=/DSBA-2021/m2/ title="Network Analysis & NLP" class="dd-item
+parent">
 <a href=/DSBA-2021/m2/>
 <b>2. </b>Network Analysis & NLP
 <i class="fas fa-check read-icon"></i>
 </a>
 <ul>
-<li data-nav-id=/DSBA-2021/m2/00_assignments/ title=Assignments class=dd-item>
+<li data-nav-id=/DSBA-2021/m2/00_assignments/ title=Assignments class="dd-item
+parent">
 <a href=/DSBA-2021/m2/00_assignments/>
 Assignments
 <i class="fas fa-check read-icon"></i>
@@ -225,7 +225,7 @@ Exercise t 2 - NLP
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/DSBA-2021/m2/00_assignments/group_assignment/ title="M2 (Mandatory) Assignment" class=dd-item>
+<li data-nav-id=/DSBA-2021/m2/00_assignments/group_assignment/ title="M2 (Mandatory) Assignment" class="dd-item active">
 <a href=/DSBA-2021/m2/00_assignments/group_assignment/>
 M2 (Mandatory) Assignment
 <i class="fas fa-check read-icon"></i>
@@ -346,7 +346,7 @@ Application: Vectorization and Topic Modelling
 </a>
 </span>
 <span class=links>
-<a href=/DSBA-2021/>Data Science for Business Applications 2021</a> > <a href=/DSBA-2021/m1/>Applied Data Science and Machine Learning</a> > <a href=/DSBA-2021/m1/02_basics/>Basics of Statistical Programming and Data Manipulation (W36)</a> > Basics Data Visualization
+<a href=/DSBA-2021/>Data Science for Business Applications 2021</a> > <a href=/DSBA-2021/m2/>Network Analysis & NLP</a> > <a href=/DSBA-2021/m2/00_assignments/>Assignments</a> > M2 (Mandatory) Assignment
 </span>
 </div>
 </div>
@@ -355,73 +355,129 @@ Application: Vectorization and Topic Modelling
 </div>
 <div id=body-inner>
 <h1>
-Basics Data Visualization
+M2 (Mandatory) Assignment
 </h1>
-<div class="notices tip"><p>Use the tabs to access content. Theory part is general, R & Python application part language specific.</p>
-</div>
-<p>This session introduces some fundamental concepts of data visualization. After a theoretical lecture on types and dimensions of data visualization, we will explore the visualization of different data types, structure, and properties in R and Python specific applications.</p>
-<div class=tab-panel>
-<div class=tab-nav>
-<button data-tab-item="Theory: Elements of Data Visualization" data-tab-group=default class="tab-nav-button btn active" onclick="switchTab('default','Theory: Elements of Data Visualization')">Theory: Elements of Data Visualization</button>
-<button data-tab-item="R Application - Data Visualization" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','R Application - Data Visualization')">R Application - Data Visualization</button>
-<button data-tab-item="Python Application - Data Visualization" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','Python Application - Data Visualization')">Python Application - Data Visualization</button>
-</div>
-<div class=tab-content>
-<div data-tab-item="Theory: Elements of Data Visualization" data-tab-group=default class="tab-item active">
-<h2>Video</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/73c049cd420d46f3b1129944b0e9e6ea frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-<h2>Slides</h2>
-Use arrows keys on keyboardto navigate. Alternatively fullscreen slides <a href=https://sds-aau.github.io/SDS-master/M1/notebooks/EDA_dataviz_intro.html target=_blank>available here</a>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://sds-aau.github.io/SDS-master/M1/notebooks/EDA_dataviz_intro.html frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:115%></iframe>
-</div>
-</div>
-<div data-tab-item="R Application - Data Visualization" data-tab-group=default class=tab-item>
-<div>
-<h3>Follow along</h3>
+<h2 id=dsba-2021---m2-mandatory-assignment>DSBA 2021 - M2: (Mandatory) Assignment</h2>
+<h2 id=introduction>Introduction</h2>
+<p>xxxxx</p>
+<p>Now it is time to bring most these steps together and apply them to a setting that you find interesting. This should apply the following tasks.</p>
 <ul>
-<li>
-<i class="fas fa-laptop-code"></i>
-<a href=https://sds-aau.github.io/SDS-master/M1/notebooks/EDA_dataviz_application_R.nb.html target=_blank>HTML Notebook</a> </li>
-<li>
-<i class="fas fa-laptop-code"></i>
-<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/notebooks/EDA_dataviz_application_R.ipynb target=_blank>Colab Notebook</a> </li>
+<li>Identify an interesting problem that can be tackled using netork analysis and NLP techniques.</li>
+<li>Optimally, this is done within one dataset. However, the assignment can also be done using 2 different datasets, if nothing suitable combinging both elements of netork analysis and NLP is found.</li>
+<li>Select and obtain relevant data to do so.</li>
+<li>Clean and manipulate the data to make it useful for network analysis and NLP techniques.</li>
+<li>Execute an analysis containing elements of network analysis and NLP you have been exposed to (&mldr; or beyond)</li>
+<li>Document your workflow in a reconstructable manner.</li>
+<li>Report your findings in an accessible manner.</li>
 </ul>
-<h2>Video</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/c1b84f6e59ce4b02935b0088744cfc5b frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-</div>
-</div>
-<div data-tab-item="Python Application - Data Visualization" data-tab-group=default class=tab-item>
-<div>
-<h3>Follow along</h3>
+<h2 id=task-description>Task description</h2>
+<p>You have the choice between two different assignments:</p>
+<ol>
+<li>Find and select datasets on your own, and perform an interesting and informative analysis using the elements stated above on your own.</li>
+<li>Solve both exercise 1 and 2 separately, using the corresponding dataset and following the stated tasks accordingly.</li>
+</ol>
+<h3 id=data--problem-identification-for-option-1>Data & Problem identification (for option 1.)</h3>
+<p><strong>NOTE: Follow this if you choose option 1 and ant to work with own data. Otherwise, follow the tasks of M2 exercise 1 and 2</strong></p>
+<p>In this exercise, you are asked to choose and obtain a dataset you consider interesting and appropriate for the tasks required. You are welcome to use existing datasets for <a href=https://github.com/niderhoff/nlp-datasets target=_blank>language</a> and <a href=https://snap.stanford.edu/data/ target=_blank>networks</a> but at this stage you could also consider getting your own data (e.g. Twitter API, Instagram, news repositories etc.)</p>
+<p>The data should be large enough and of proper granularity to be interesting for NLP and network analysis techniques. If you are in doubt, please reach out.</p>
+<p>What we expect you to do:</p>
 <ul>
-<li>
-<i class="fas fa-laptop-code"></i>
-<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M1/Notebooks/EDA_dataviz_application_Py.ipynb target=_blank>Colab Notebook</a> </li>
+<li>Identify an interesting problem that can be tackled using data science techniques applied to natural language and networks.</li>
+<li>Select and obtain relevant data to do so.</li>
+<li>Clean and manipulate the data to make it useful.</li>
+<li>Carry out an exploratory data analysis to provide intuition into the content of the data, and interesting relationships to be found in it.</li>
+<li>Use unsupervised ML techniques to discover relationships within the data such as interesting topics or latent network structures.</li>
+<li>Use supervised ML techniques to create models that predict an outcome of interest.</li>
+<li>Document your workflow in a reconstructable manner.</li>
+<li>Report your findings in an accessible manner.</li>
 </ul>
-<h2>Video Part 1</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/131c377a473742f482fc961e873be956 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-<h2>Video Part 2</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/923dd7f34fc3416596cd56c43325219d frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-</div>
-</div>
-</div>
-</div>
+<h3 id=analysis-pipeline>Analysis pipeline</h3>
+<p>The analysis to be carried out by you has to contain elements of <strong>data manipulation</strong>, <strong>exploration</strong>, <strong>unsupervised</strong> and <strong>supervised ML</strong> as applied to <strong>relational</strong> and <strong>language data</strong>.</p>
+<p>In the best case, you combine network data with language elements. Twitter is a good (and easy) example, as you can, for instance, combine mention-networks with sentiments expressed in the tweets. The article below is a creative example of that (with a rather small NLP part).</p>
+<p><a href=https://link.springer.com/chapter/10.1007/978-3-319-13734-6_25 target=_blank>Liu, Z., &amp;amp; Weber, I. (2014, November)</a>. Is Twitter a public sphere for online conflicts? A cross-ideological and cross-hierarchical look. In International Conference on Social Informatics (pp. 336-347). Springer, Cham.</p>
+<ul>
+<li>Definition of a problem statement and a short outline of the implementation</li>
+<li>Description of data acquisition / how it was collected (by you or the publisher of the data)</li>
+<li>Data preparation (general)
+<ul>
+<li>Data cleaning (if needed)</li>
+<li>Recoding (label encoding, dummy creation etc.)</li>
+<li>Merging and wrangling (if needed)</li>
+</ul>
+</li>
+<li>Missing data imputation (if applicable and deemed relevant)</li>
+<li>Network Data - preparation
+<ul>
+<li>Extraction and formatting</li>
+<li>Creation of functional graphs with relevant attributes</li>
+</ul>
+</li>
+<li>NLP - preparation
+<ul>
+<li>Extraction & Cleaning</li>
+<li>Tokenization</li>
+<li>Filtering & Lemmatization / Stemming (if needed)</li>
+</ul>
+</li>
+<li>Network analysis
+<ul>
+<li>Calculation of relevant indicators on different levels / EDA</li>
+<li>Projection (in the case of bipartite graphs)</li>
+<li>Identification of community structures</li>
+</ul>
+</li>
+<li>NLP
+<ul>
+<li>EDA / simple frequency-based analysis</li>
+<li>Simple vectorization (BoW, Tf-idf)</li>
+<li>Topic modelling / Clustering (LDA / LSA)</li>
+<li>Embedding-model based vectorization (Word2Vec, Fasttext, GloVe)</li>
+</ul>
+</li>
+<li>Supervised / Unsupervised ML
+<ul>
+<li>Try to link your results from network analysis or NLP with a more traditional ML problem.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Many of the steps are optional.</strong> So choose which methods you deem helpful and relevant to explore your chosen problem.</p>
+<p><strong>Note:</strong> Quality > Quantity. Consider which analysis, summarization, and visualization adds value. Excessive and unselective outputs (e.g. running 20 different models without providing a reason for, providing all possibilities of different plots without discussing and evaluating the insights gained from it) will not be considered helpful but rather distracting.</p>
+<h3 id=some-inspirational-examples-non-binding-and-non-exhaustive>Some inspirational examples (non-binding, and non-exhaustive):</h3>
+<ol>
+<li>You obtain a dataset with tweets on a current debate (e.g. #MeeToo) and try to map the discourse.
+<ul>
+<li>You perform “naive” NLP, counting handles, hashtags, basic plotting etc. to get some overview.</li>
+<li>You perform “out-of-the-box” sentiment analysis and plot tweets on a map, colouring by sentiment.</li>
+<li>You perform topic modelling and identify the sub-discussions.</li>
+<li>Isolating handles/retweets, you identify some interaction patterns, use network indicator to identify thought leaders or conflicting communities as well as people that try to negotiate between positions.</li>
+</ul>
+</li>
+<li>You obtain a bibliographic dataset on a field of study (or from an entity such as a university) of interest, e.g., from scopus.
+<ul>
+<li>You perform a network analysis on different levels of aggregations, identifying key publications, scientists etc.</li>
+<li>You run a topic model to identify relevant discourses.</li>
+<li>You might then answer questions such as: Did the discourses change over time? In case so, who or what drives these changes?</li>
+</ul>
+</li>
+</ol>
+<h3 id=documentation-and-deliverables>Documentation and Deliverables</h3>
+<p>You are asked to hand in a <strong>well commented functional computational notebook</strong></p>
+<h4 id=computational-notebook>Computational Notebook</h4>
+<p>The notebook targets a machine-learning literate audience. Here you can go deeper into the technical details and method considerations. Provide thorough documentation of the whole process, the used methods. Describe the intuition behind the selected and used methods, justify choices made, and interpret results.</p>
+<p>Please provide the notebook as a PDF.</p>
+<h2 id=finally>Finally</h2>
+<ul>
+<li>Submission deadline is <strong>20.10, 23:59</strong> - on peergrade (class code: N8A46K)</li>
+<li>Peer Feedback deadline is <strong>25.10, 23:59</strong> - Provide constructive comments as you would like to recieve them</li>
+<li>In case of trouble/issues/questions, please write on Teams.</li>
+</ul>
 <footer class=footline>
 </footer>
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-prev" href=/DSBA-2021/m1/02_basics/02_data_manipulation/ title="Basics Data Manipulation"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/DSBA-2021/m1/03_ml/ title="Basics Machine Learning (W37-38)" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/DSBA-2021/m2/00_assignments/exercise2/ title="Exercise t 2 - NLP"> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/DSBA-2021/m2/00_workshops/ title=Workshops style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
