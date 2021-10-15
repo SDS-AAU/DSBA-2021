@@ -7,10 +7,7 @@ draft: false
 
 ## DSBA 2021 - M2: (Mandatory) Assignment
 
-
 ## Introduction
-
-xxxxx
 
 Now it is time to bring most these steps together and apply them to a setting that you find interesting. This should apply the following tasks. 
 
