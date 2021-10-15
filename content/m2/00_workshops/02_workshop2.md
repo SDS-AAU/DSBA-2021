@@ -1,6 +1,6 @@
 
 ---
-title: "Workshop 2 - Classification of Political US Tweets"
+title: "Day 2 - Classification of Political US Tweets"
 weight: 2
 disableToc: true
 draft: false
