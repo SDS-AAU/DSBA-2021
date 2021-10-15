@@ -2,14 +2,14 @@
 title: Semester Project Requirements
 weight: 5
 chapter: false
-draft: true
+draft: false
 ---
 
 ## Format
 
 * Functional and self-contained notebook
 * Happy to see GitHub repos (which you can use as your portfolio in the job market)
-* Project report (30-ish pages - max. 45)
+* Project report (30-ish pages - max. 45... depending on group size)
 * Some study relation (but that is debatable and not necessarily required)
 * Report is a (semi/non) technical documentation. Think about a corporate censor that you try to inform
 
