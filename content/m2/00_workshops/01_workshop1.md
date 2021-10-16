@@ -45,6 +45,8 @@ Time: 8:15 (we start 15 min later) - 13:20
 
 By guest: Andreas Markussen 
 
+{{< panopto "https://cbs.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=4ee56e3e-6770-413e-abea-adc3010a580d&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=false&interactivity=all">}}
+
 ### Introduction 
 
 The purpose is to demonstrate a minimum viable product of an ML model deployment. Keeping with the DSBA spirit, I would keep the section hands-on. I would cover a minimal ML pipeline using data that is already preprocessed. The model will be saved to a static file and served through an API. When done, we will have created a web service from scratch, that can be used by any user in their browser. The project will be conducted in Python, with a little HTML added.
