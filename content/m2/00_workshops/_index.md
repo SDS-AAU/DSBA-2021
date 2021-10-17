@@ -14,7 +14,7 @@ In the live workshops we will aim at working with real world data in groups in c
 
 1. Elites
    * [R code-along](https://sds-aau.github.io/DSBA-2021/notebooks/M2_workshop_networks_R.nb.html)
-   * [Python Notebook](https://colab.research.google.com/github/SDS-AAU/DSBA-2021/blob/master/static/notebooks/DSBA21_A2_W1.ipynb)
+   * [Python Notebook](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/exercises/M2_W1_Elites.ipynb)
 
 
 {{< panopto "https://cbs.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1a5fb0d7-3bba-4b35-93c0-adc301421653&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=false&interactivity=all">}}
