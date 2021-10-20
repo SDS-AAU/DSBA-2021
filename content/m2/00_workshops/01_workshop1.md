@@ -74,8 +74,9 @@ To get most of this workshop, you should have:
 ### Materials
 
 
-[Data {{< awesome fas fas fa-database >}}:](https://www.appliedcoding.net/uploads/all_vintages_data_set.csv)
-[Repo {{< awesome fab fa-github >}}:](https://github.com/andreas-mar/DSBA-14-10-2021/tree/master)
+- [Data {{< awesome fas fas fa-database >}}:](https://www.appliedcoding.net/uploads/all_vintages_data_set.csv)
+- [Repo {{< awesome fab fa-github >}}:](https://github.com/andreas-mar/DSBA-14-10-2021/tree/master)
+- [Slides](https://github.com/SDS-AAU/DSBA-2021/raw/master/static/notebooks/DSBA%20presentation.pdf)
 
 
 <!---
