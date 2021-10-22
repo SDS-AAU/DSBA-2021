@@ -1,6 +1,6 @@
 ---
 title: Deep Learning
-weight: 3
+weight: 4
 pre: "<b>3. </b>"
 chapter: false
 ---

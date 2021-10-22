@@ -1,5 +1,5 @@
 ---
-title: "Basics Network Analysis"
+title: "Introduction Neural Networks"
 weight: 1
 disableToc: true
 ---
