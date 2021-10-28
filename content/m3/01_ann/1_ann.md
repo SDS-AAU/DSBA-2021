@@ -27,11 +27,15 @@ This session introduces to artificial neural networks (ANN) and Deep Learning (D
   {{< loom  308fc2d29d6840c19abce61d8f5eec31 >}}
   
   <h2>Slides</h2>  
-  Use arrows keys on keyboard to navigate. Right click for opening in fullscreen.
+  Use arrows keys on keyboard to navigate. 
+  
+{{< IncludeSlides "https://sds-aau.github.io/SDS-master/M3/notebooks/ANN_intro.html" >}}
 
-1. {{< IncludeSlides "https://sds-aau.github.io/SDS-master/M3/notebooks/ANN_intro.html" >}}
+Fullscreen slides <a href="https://sds-aau.github.io/SDS-master/M3/notebooks/ANN_intro.html" target="_blank">available here</a>
 
-2. {{< IncludeSlides "https://sds-aau.github.io/SDS-master/M3/notebooks/ANN_learning.html" >}}
+{{< IncludeSlides "https://sds-aau.github.io/SDS-master/M3/notebooks/ANN_learning.html" >}}
+
+Fullscreen slides <a href="https://sds-aau.github.io/SDS-master/M3/notebooks/ANN_learning.html" target="_blank">available here</a>
 {{< /tab >}}
 
 {{< tab name="R Application - Neural Networks">}}
