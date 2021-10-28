@@ -6,7 +6,7 @@
 <meta name=description content="CBS Data Science for Business Applications 2021">
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/DSBA-2021/images/favicon.png type=image/png>
-<title>Network 2-Mode :: Social Data Science 2021</title>
+<title>Recurrent Neural Networks :: Social Data Science 2021</title>
 <link href=/DSBA-2021/css/nucleus.css?1635418365 rel=stylesheet>
 <link href=/DSBA-2021/css/fontawesome-all.min.css?1635418365 rel=stylesheet>
 <link href=/DSBA-2021/css/hybrid.css?1635418365 rel=stylesheet>
@@ -20,7 +20,7 @@
 <script src=/DSBA-2021/js/jquery-3.3.1.min.js?1635418365></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/DSBA-2021/m2/01_networks/3_networks_2mode/>
+<body data-url=/DSBA-2021/m3/02_cnn_rnn/2_rnn/>
 <nav id=sidebar class=showVisitedLinks>
 <div id=header-wrapper>
 <div id=header>
@@ -199,8 +199,7 @@ The Data Science Ecosystem
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m2/ title="Network Analysis & NLP" class="dd-item
-parent">
+<li data-nav-id=/DSBA-2021/m2/ title="Network Analysis & NLP" class=dd-item>
 <a href=/DSBA-2021/m2/>
 <b>2. </b>Network Analysis & NLP
 <i class="fas fa-check read-icon"></i>
@@ -252,8 +251,7 @@ Day 2 - Classification of Political US Tweets
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m2/01_networks/ title="Network Analysis" class="dd-item
-parent">
+<li data-nav-id=/DSBA-2021/m2/01_networks/ title="Network Analysis" class=dd-item>
 <a href=/DSBA-2021/m2/01_networks/>
 Network Analysis
 <i class="fas fa-check read-icon"></i>
@@ -277,7 +275,7 @@ Intermediate Network Analysis
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/DSBA-2021/m2/01_networks/3_networks_2mode/ title="Network 2-Mode" class="dd-item active">
+<li data-nav-id=/DSBA-2021/m2/01_networks/3_networks_2mode/ title="Network 2-Mode" class=dd-item>
 <a href=/DSBA-2021/m2/01_networks/3_networks_2mode/>
 Network 2-Mode
 <i class="fas fa-check read-icon"></i>
@@ -319,7 +317,8 @@ Application: Vectorization and Topic Modelling
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m3/ title="Deep Learning" class=dd-item>
+<li data-nav-id=/DSBA-2021/m3/ title="Deep Learning" class="dd-item
+parent">
 <a href=/DSBA-2021/m3/>
 <b>3. </b>Deep Learning
 <i class="fas fa-check read-icon"></i>
@@ -339,7 +338,8 @@ Introduction Neural Networks
 </li>
 </ul>
 </li>
-<li data-nav-id=/DSBA-2021/m3/02_cnn_rnn/ title="Advanced architectures" class=dd-item>
+<li data-nav-id=/DSBA-2021/m3/02_cnn_rnn/ title="Advanced architectures" class="dd-item
+parent">
 <a href=/DSBA-2021/m3/02_cnn_rnn/>
 Advanced architectures
 <i class="fas fa-check read-icon"></i>
@@ -351,7 +351,7 @@ Convolutional Neural Networks
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/DSBA-2021/m3/02_cnn_rnn/2_rnn/ title="Recurrent Neural Networks" class=dd-item>
+<li data-nav-id=/DSBA-2021/m3/02_cnn_rnn/2_rnn/ title="Recurrent Neural Networks" class="dd-item active">
 <a href=/DSBA-2021/m3/02_cnn_rnn/2_rnn/>
 Recurrent Neural Networks
 <i class="fas fa-check read-icon"></i>
@@ -388,7 +388,7 @@ Recurrent Neural Networks
 </a>
 </span>
 <span class=links>
-<a href=/DSBA-2021/>Data Science for Business Applications 2021</a> > <a href=/DSBA-2021/m2/>Network Analysis & NLP</a> > <a href=/DSBA-2021/m2/01_networks/>Network Analysis</a> > Network 2-Mode
+<a href=/DSBA-2021/>Data Science for Business Applications 2021</a> > <a href=/DSBA-2021/m3/>Deep Learning</a> > <a href=/DSBA-2021/m3/02_cnn_rnn/>Advanced architectures</a> > Recurrent Neural Networks
 </span>
 </div>
 </div>
@@ -397,55 +397,70 @@ Recurrent Neural Networks
 </div>
 <div id=body-inner>
 <h1>
-Network 2-Mode
+Recurrent Neural Networks
 </h1>
 <div class="notices tip"><p>Use the tabs to access content. Theory part is general, R & Python application part language specific.</p>
 </div>
-<p>This session introduces to multimodel natwork analysis concepts</p>
+<p>This session introduces to recurrent neural networks (RNN) and Long-Short-Term Memory Networks (LSTM), which model sequential data well (eg. text, timeseries)</p>
+<h2 id=suggested-datacamp-courses>Suggested Datacamp courses</h2>
+<ul>
+<li>Recurrent Neural Networks for Language Modeling in Python</li>
+</ul>
 <div class=tab-panel>
 <div class=tab-nav>
-<button data-tab-item="R Application -2-mode Network Analysis" data-tab-group=default class="tab-nav-button btn active" onclick="switchTab('default','R Application -2-mode Network Analysis')">R Application -2-mode Network Analysis</button>
-<button data-tab-item="Python Application - -2-mode Network Analysis" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','Python Application - -2-mode Network Analysis')">Python Application - -2-mode Network Analysis</button>
+<button data-tab-item="Theory - Recurrent Neural Networks" data-tab-group=default class="tab-nav-button btn active" onclick="switchTab('default','Theory - Recurrent Neural Networks')">Theory - Recurrent Neural Networks</button>
+<button data-tab-item="R Application - RNN" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','R Application - RNN')">R Application - RNN</button>
+<button data-tab-item="Python Application - RNN" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','Python Application - RNN')">Python Application - RNN</button>
 </div>
 <div class=tab-content>
-<div data-tab-item="R Application -2-mode Network Analysis" data-tab-group=default class="tab-item active">
+<div data-tab-item="Theory - Recurrent Neural Networks" data-tab-group=default class="tab-item active">
+<h2>Video: Introduction CNNs</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/d1b775f28a194fa7a6f6c62d037a9870 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+<h2>Slides</h2>
+Use arrows keys on keyboard to navigate. Fullscreen slides <a href=https://sds-aau.github.io/SDS-master/M3/notebooks/RNN_intro.html target=_blank> available here </a>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://sds-aau.github.io/SDS-master/M3/notebooks/RNN_intro.html frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:115%></iframe>
+</div>
+</div>
+<div data-tab-item="R Application - RNN" data-tab-group=default class=tab-item>
+Also check Python MAterial
 <div>
 <h3>Follow along</h3>
 <ul>
 <li>
 <i class="fas fa-laptop-code"></i>
-<a href=https://sds-aau.github.io/SDS-master/M2/notebooks/network_analysis_application_bipartite.nb.html target=_blank>HTML Notebook</a> </li> Notebook</a> </li>
-<li>
-<i class="fas fa-laptop-code"></i>
-<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/network_analysis_application_bipartite.ipynb target=_blank>Colab Notebook</a> </li>
-<h2>Video 1: Intro</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/7668a71c95f941a1a17148e45ba83689 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-<h2>Video 2: Application</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/2fdf16a87a9d4eac81d50cef0b55ae3b frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-</div>
-</div>
-<div data-tab-item="Python Application - -2-mode Network Analysis" data-tab-group=default class=tab-item>
-<div>
-<h3>Follow along</h3>
-<ul>
-<li>
-<i class="fas fa-laptop-code"></i>
-<a href=https://nbviewer.jupyter.org/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/M2_Bipartite_graphs_in_Python.ipynb target=_blank>Colab Notebook 1/a> </li>
-<li>
-<i class="fas fa-laptop-code"></i>
-<a href=https://nbviewer.jupyter.org/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/M2_Case_ETF_Holdings_Python.ipynb target=_blank>Colab Notebook 2</a> </li>
+<a href=https://sds-aau.github.io/SDS-master/M3/notebooks/RNN_application_R.nb.html target=_blank>HTML Notebook</a> </li>
 </ul>
-<h2>Video 1: Intro </h2>
+<h2>Video 1: Intro RNN</h2>
 <div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/f51efae898ff4d78a69949381b4649fe frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+<iframe src=https://www.loom.com/embed/eaf2f07b85ef498fbf7a356ad25e9ee9 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
 </div>
-<h2>Video 2: Case</h2>
+<h2>Video 2: IMDB Case </h2>
 <div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/3984d91363f54c01b27d8672f382b711 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+<iframe src=https://www.loom.com/embed/36ac6f7d36fa4c16b6df77dcdb2135b9 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+</div>
+</div>
+<div data-tab-item="Python Application - RNN" data-tab-group=default class=tab-item>
+<div>
+<h3>Follow along</h3>
+<ul>
+<li> Simple Timeseries
+<i class="fas fa-laptop-code"></i>
+<a href=https://nbviewer.jupyter.org/github/SDS-AAU/SDS-2020/blob/master/M3/notebooks/SimpleLSTM_timeseries.ipynb target=_blank>Colab Notebook</a> </li>
+<li> Bi-LSTM on IMDB
+<i class="fas fa-laptop-code"></i>
+<a href=https://github.com/SDS-AAU/SDS-master/blob/master/M3/notebooks/bidirectional_lstm_imdb.ipynb target=_blank>Colab Notebook</a> </li>
+</ul>
+<h2>Video 1: Simple Timeseries</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/ac7d5a60b72a4e5d9c7ac03c38aa6401 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+<h2>Video 2: Bi-LSTM on IMDB </h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/ee51f2982a34497eafa5ae77238d72ea frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
 </div>
 </div>
 </div>
@@ -456,8 +471,8 @@ Network 2-Mode
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-prev" href=/DSBA-2021/m2/01_networks/2_networks_intermediate/ title="Intermediate Network Analysis"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/DSBA-2021/m2/02_nlp/ title="Natural Language Processing" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/DSBA-2021/m3/02_cnn_rnn/1_cnn/ title="Convolutional Neural Networks"> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/DSBA-2021/m3/02_cnn_rnn/1_cnn/ title="Convolutional Neural Networks" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
