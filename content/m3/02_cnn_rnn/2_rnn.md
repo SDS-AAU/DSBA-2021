@@ -53,7 +53,7 @@ Also check Python MAterial
 <div>
    <h3>Follow along</h3> 
   <ul>
-    <li> Simple Timeseries{{< awesome fas fa-laptop-code >}} <a href="https://nbviewer.jupyter.org/github/SDS-AAU/SDS-2020/blob/master/M3/notebooks/SimpleLSTM_timeseries.ipynb" target="_blank">Colab Notebook</a> </li>
+    <li> Simple Timeseries{{< awesome fas fa-laptop-code >}} <a href="https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M3/notebooks/RNN_simple_timeseries.ipynb" target="_blank">Colab Notebook</a> </li>
     <li> Bi-LSTM on IMDB {{< awesome fas fa-laptop-code >}} <a href="https://github.com/SDS-AAU/SDS-master/blob/master/M3/notebooks/bidirectional_lstm_imdb.ipynb" target="_blank">Colab Notebook</a> </li>
 
   </ul>
