@@ -1,6 +1,6 @@
 
 ---
-title: Workshop 1 - AirBnb revisited
+title: Exercise 1 - AirBnB revisited
 weight: 2
 disableToc: true
 ---
@@ -35,14 +35,13 @@ Use the Keras documentation and community sources to identify best practices. Ho
 
 This part is related to 2. Explore the training process (over the epochs). Explore and describe 2 common approaches used to prevent overfitting in deep feed-forward neural nets.
 
-
-## In class Notebooks
+<!---
+## Example Solutions
 
 * R team [:::: HERE ::::](https://sds-aau.github.io/SDS-2021/workshops/2021//M3_workshop1_ann.nb.html)
 * [{{< awesome fas fa-laptop-code >}} Py Team](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M3/notebooks/M3_W1_AirBnb_revisited_with_Neural_Nets.ipynb)
 
 
-<!---
 {{< tabs >}}
 
 {{< tab name="Joint recordings">}}
