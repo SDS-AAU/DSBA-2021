@@ -20,7 +20,10 @@ In the live workshops we will aim at working with real world data in groups in c
 
 ### Day 2
 
-1. Autoencoder
+1. SBERT Similarity
    * [Notebook](xxx)
    * [Complementary paper](https://arxiv.org/abs/2103.11933)
    * [Complementary presentation](https://docs.google.com/presentation/d/1TfdphuCKPUNFNO7rmbn5oqATrS-1hi_w9836ZfedWEQ/edit?usp=sharing)
+2. Autoencoder
+   * [Notebook](xxx)
+   * [Complementary paper](https://arxiv.org/abs/2003.13441)
