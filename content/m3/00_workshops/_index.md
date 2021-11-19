@@ -17,3 +17,10 @@ In the live workshops we will aim at working with real world data in groups in c
  2. LSTM REVISION
    * [R: LSTM revision stocks](https://sds-aau.github.io/DSBA-2021/notebooks/M3_workshop2_lstm.nb.html)
    * [Python: LSTM revision crypto](https://sds-aau.github.io/DSBA-2021/notebooks/)
+
+### Day 2
+
+1. Autoencoder
+   * [Notebook](xxx)
+   * [Complementary paper](https://arxiv.org/abs/2103.11933)
+   * [Complementary presentation](https://docs.google.com/presentation/d/1TfdphuCKPUNFNO7rmbn5oqATrS-1hi_w9836ZfedWEQ/edit?usp=sharing)
