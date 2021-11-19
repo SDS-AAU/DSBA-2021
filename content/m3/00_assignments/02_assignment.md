@@ -1,6 +1,6 @@
 
 ---
-title: M3: Mandatory Assignment
+title: "M3: Mandatory Assignment"
 weight: 3
 disableToc: true
 ---
