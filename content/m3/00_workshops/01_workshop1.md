@@ -35,8 +35,6 @@ Build an LSTM net that looks n timesteps back to predict the next period
 Build an LSTM that uses several inputs (e.g. other stocks or TA features)
 
 
-
-
 <!---
 {{< tabs >}}
 

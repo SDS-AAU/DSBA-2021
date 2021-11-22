@@ -13,17 +13,17 @@ In the live workshops we will aim at working with real world data in groups in c
 
 1. ANN Revison
    * [R: ANN revision AirBnB](https://sds-aau.github.io/DSBA-2021/notebooks/M3_workshop1_ann.nb.html)
-   * [Python: ANN revision AirBnB](https://sds-aau.github.io/DSBA-2021/notebooks/)
+   * [Python: ANN revision AirBnB](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M3/notebooks/M3_W1_AirBnb_revisited_with_Neural_Nets.ipynb)
  2. LSTM REVISION
    * [R: LSTM revision stocks](https://sds-aau.github.io/DSBA-2021/notebooks/M3_workshop2_lstm.nb.html)
-   * [Python: LSTM revision crypto](https://sds-aau.github.io/DSBA-2021/notebooks/)
+   * [Python: LSTM revision & Crypto](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M3/notebooks/Simple_LSTM_stock_prediction_with_backtest.ipynb)
 
 ### Day 2
 
 1. SBERT Similarity
-   * [Notebook](xxx)
+   * [Notebook](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M3/notebooks/Claim_Similarity_and_Classification_SBERT_KNN.ipynb)
    * [Complementary paper](https://arxiv.org/abs/2103.11933)
    * [Complementary presentation](https://docs.google.com/presentation/d/1TfdphuCKPUNFNO7rmbn5oqATrS-1hi_w9836ZfedWEQ/edit?usp=sharing)
 2. Autoencoder
-   * [Notebook](xxx)
+   * [Notebook](https://colab.research.google.com/github/SDS-AAU/dsba-cbs/blob/master/M3/workshop/Autoencoder_SDS.ipynb)
    * [Complementary paper](https://arxiv.org/abs/2003.13441)
