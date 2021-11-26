@@ -25,5 +25,6 @@ In the live workshops we will aim at working with real world data in groups in c
    * [Complementary paper](https://arxiv.org/abs/2103.11933)
    * [Complementary presentation](https://docs.google.com/presentation/d/1TfdphuCKPUNFNO7rmbn5oqATrS-1hi_w9836ZfedWEQ/edit?usp=sharing)
 2. Autoencoder
-   * [Notebook](https://colab.research.google.com/github/SDS-AAU/dsba-cbs/blob/master/M3/workshop/Autoencoder_SDS.ipynb)
+   * [Python Notebook](https://colab.research.google.com/github/SDS-AAU/dsba-cbs/blob/master/M3/workshop/Autoencoder_SDS.ipynb)
+   * [R Notebook](https://sds-aau.github.io/DSBA-2021/notebooks/M3_workshop3_autoencoder.nb.html)
    * [Complementary paper](https://arxiv.org/abs/2003.13441)
